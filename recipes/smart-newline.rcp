@@ -1,0 +1,4 @@
+(:name smart-newline
+       :type github
+       :website "https://github.com/ainame/smart-newline.el"
+       :pkgname "ainame/smart-newline.el")
