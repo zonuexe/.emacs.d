@@ -3,7 +3,7 @@
 (setq vc-handled-backends '())
 (eval-after-load "vc"
   '(remove-hook 'find-file-hooks 'vc-find-file-hook))
- 
+
 (el-get 'sync 'magit)
 (require 'magit)
 (eval-after-load 'magit
