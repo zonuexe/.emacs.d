@@ -1,10 +1,9 @@
 ;; -*- Mode: Emacs-Lisp ; Coding: utf-8 -*-
 ;;; YASnippet
-(el-get 'sync '(yasnippet yasnippet-config dropdown-list))
-(require 'dropdown-list)
+(el-get 'sync 'yasnippet)
 (when (require 'yasnippet nil t)
   (yas/load-directory (locate-user-emacs-file "./el-get/yasnippet/snippets"))
-  ;(yas-global-mode t)
+  (yas-global-mode t)
   (call-interactively 'yas/reload-all)
   (custom-set-variables
    '(yas/prompt-functions
