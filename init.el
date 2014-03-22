@@ -2,7 +2,6 @@
 
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
-(add-to-list 'load-path user-emacs-directory)
 
 ;;; load initial files
 (load (locate-user-emacs-file "./macros"))
@@ -11,4 +10,3 @@
 ;;; load config files
 (pkg-sync 'init-loader require
 	  (init-loader-load (locate-user-emacs-file "./conf")))
-
