@@ -13,3 +13,4 @@
      (when (not window-system)
        (set-face-background 'magit-item-highlight "white"))))
 (global-set-key (kbd "C-x m") 'magit-status)
+(global-set-key (kbd "C-c l") 'magit-blame-mode)
