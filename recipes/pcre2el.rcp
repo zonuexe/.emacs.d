@@ -1,0 +1,3 @@
+(:name pcre2el
+       :type github
+       :pkgname "joddie/pcre2el")

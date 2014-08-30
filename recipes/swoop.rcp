@@ -1,0 +1,4 @@
+(:name swoop
+       :type github
+       :pkgname "ShingoFukuyama/emacs-swoop"
+       :depends (emacs-async pcre2el ht))

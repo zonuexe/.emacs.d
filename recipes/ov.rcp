@@ -1,0 +1,3 @@
+(:name ov
+       :type github
+       :pkgname "ShingoFukuyama/ov.el")

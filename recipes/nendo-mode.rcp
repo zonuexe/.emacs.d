@@ -1,0 +1,8 @@
+(:name nendo-mode
+       :description "Nendo-mode for Emacs"
+       :type http
+       :url "https://raw.githubusercontent.com/kiyoka/nendo/master/emacs/nendo-mode.el"
+       :website http://oldtype.sumibi.org/show-page/Nendo
+       :prepare (progn
+		  (autoload 'rhtml-mode "rhtml-mode" nil t)
+		  (add-to-list 'auto-mode-alist '("\\.html\.erb$" . rhtml-mode))))
