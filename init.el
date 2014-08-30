@@ -10,3 +10,25 @@
 ;;; load config files
 (pkg-sync 'init-loader require
 	  (init-loader-load (locate-user-emacs-file "./conf")))
+(put 'dired-find-alternate-file 'disabled nil)
+
+(el-get 'sync 'ov)
+(el-get 'sync 'helm-swoop)
+
+(el-get 'sync 'howm)
+(require 'howm)
+
+(el-get 'sync 'maxframe)
+(require 'maxframe)
+(add-hook 'window-setup-hook 'maximize-frame t)
+
+(el-get 'sync 'nendo-mode)
+(require 'nendo-mode)
+
+(el-get 'sync 'scss-mode)
+(el-get 'sync 'cedet)
+(require 'semantic)
+
+(el-get 'sync 'json-mode)
+(el-get 'sync 'go-mode)
+(el-get 'sync 'clojure-mode)
