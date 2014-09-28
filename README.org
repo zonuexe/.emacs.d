@@ -1,0 +1,3 @@
+* .emacs
+** なあにこれ
+   @[[https://twitter.com/zonu_exe][zonuexe]] さんがまごころこめてつくった =.emacs= ファイルです
